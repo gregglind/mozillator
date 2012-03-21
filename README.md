@@ -10,7 +10,8 @@ Light weight data visualization library.
 Global Libraries
 ----------------
 
-The following libraries are available globally:
+The following libraries are available globally in minified versions.
 
-* *d3*: `lib/d3.v2.js` and `lib/d3.v2.min.js`
-* *jQuery*: `lib/jquery.js` and `lib/jquery.min.js`
+* *d3* (`lib/d3.js`): A JavaScript visualization library for HTML and SVG
+* *jQuery* (`lib/jquery.js`): jQuery JavaScript Library
+* *underscore.js* (`lib/underscore.js`): JavaScript's utility _ belt
