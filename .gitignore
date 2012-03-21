@@ -40,3 +40,6 @@ publish
 
 # lib files shouldn't be tracked
 lib/*.js
+
+# distributions for release
+dist-*/

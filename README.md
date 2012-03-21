@@ -52,3 +52,20 @@ repository folder run `make`. This will download needed submodules, build each d
 minified libraries directly in `lib/`.
 
 To cleanup all submodules and library files run `make clean`.
+
+Distributions
+-------------
+
+To build a distribution run `make dist`. By default his will create a `dist-<short_hash>` directory
+where all the build and minified libraries will be copied. Then a `tar.gz` will be created of the distribution
+folder.
+
+`make dist` will build `HEAD` by default. To build at another revision run `make DIST_REV=(hash/tag/branch) dist`.
+
+To change the location of the distribution directory and tar.gz run `make PREFIX=/my/dist/dir dist`.
+
+Cleanup all distribution files by running `make distclean`.
+
+Debugging
+---------
+If there are problems in the build process run `make DEBUG_LOG=<output.log> all`.
