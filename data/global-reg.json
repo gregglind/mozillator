@@ -1,0 +1,11 @@
+{
+  "exampledata": [
+    "heatmap", 
+    "ggplot"
+  ], 
+  "otherdatasource": [
+    "boilerplate", 
+    "forcegraph"
+  ]
+}
+

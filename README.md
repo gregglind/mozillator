@@ -69,3 +69,12 @@ Cleanup all distribution files by running `make distclean`.
 Debugging
 ---------
 If there are problems in the build process run `make DEBUG_LOG=<output.log> all`.
+
+
+Using
+------
+
+
+* see `docs` for all usage
+* use `fabfile.py` for user level commands.
+

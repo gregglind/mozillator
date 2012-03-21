@@ -1,0 +1,21 @@
+/* maybe these should be in each app's folder?  If they are submodules, it has to live out here */
+{
+  "forcegraph": {
+    "name": "Force Directed Graphs", 
+    "summary": "directed and undirected graphs",
+    "starturl": "apps/forcegraph/index.html",
+    "source": "git://somewhere",
+    "homepage": "labs.mozilla.com/forcegraph"
+  }, 
+  "heatmap": {
+    "name": "Heatmap", 
+    "summary": "show 2d maps with 'hotspots'"
+  }, 
+  "ggplot": {
+    "name": "Plot", 
+    "summary": "x-y plots, histograms"
+  }
+}
+
+
+

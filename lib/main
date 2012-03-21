@@ -1,0 +1,14 @@
+/*
+
+This script should:
+
+* read the data/global-reg.json, containing links to all data source files
+* map the apps onto particular datasets
+
+*/
+
+
+
+function read_global_reg() {};
+function startup() {};
+
